@@ -59,7 +59,7 @@ let pushToCart = (...product) =>{
 }
 
   let x = pushToCart.bind(lap);
-    document.getElementById("lap").display = x();
+    document.getElementById("lap") = x();
     
     // let savedImage = document.getElementById("savedProduct");
     // console.log(savedImage)
